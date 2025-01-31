@@ -105,7 +105,7 @@ spec:
   stepTemplate:
     env:
       - name: BUILDER_IMAGE
-        value: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/paketo-container:2a51208449696d85b2f80444bee7bf7caa104f48 "
+        value: "quay.io/redhat-user-workloads/konflux-build-pipeli-tenant/paketo-container:4d2806e47184fe434bc9f91e070e817b825aba0b"
       - name: CONTEXT
         value: $(params.CONTEXT)
       - name: HERMETIC
